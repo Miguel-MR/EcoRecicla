@@ -11,5 +11,6 @@
 | Inicio | Categorías| Consejos|
 |![image](https://github.com/Miguel-MR/EcoRecicla/assets/140467089/ff1d69ec-a6d2-49f3-81cc-f8e6b4f48816)|![image](https://github.com/Miguel-MR/EcoRecicla/assets/140467089/d5960dc0-6ca1-4cea-a8bf-e613a4fac1d4)|![image](https://github.com/Miguel-MR/EcoRecicla/assets/140467089/b5d73714-4c1e-438e-b4f6-3f1e503f9485)|
 | Estadíasticas | Más información | 
-|![image](https://github.com/Miguel-MR/EcoRecicla/assets/140467089/6ee3c3f6-a4e8-4337-9a05-4c5a811b09ca)|![image](https://github.com/Miguel-MR/EcoRecicla/assets/140467089/ff4081c1-074d-4e97-9459-08390b203ebf)|
+|![image](https://github.com/Miguel-MR/EcoRecicla/assets/140467089/6ee3c3f6-a4e8-4337-9a05-4c5a811b09ca)|![image](https://github.com/Miguel-MR/EcoRecicla/assets/140467089/ff4081c1-074d-4e97-9459-08390b203ebf)|![image](https://github.com/Miguel-MR/EcoRecicla/assets/140467089/f1933682-1ec0-4ac7-a33a-acac0b504cc5)|
+
 
