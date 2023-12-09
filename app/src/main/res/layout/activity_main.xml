@@ -55,8 +55,8 @@
                 android:layout_marginLeft="50dp"
                 android:layout_marginRight="50dp"
                 android:hint="@string/contrasena"
-                tools:ignore="Autofill,VisualLintTextFieldSize"
-                android:inputType="numberPassword" />
+                android:inputType="numberPassword"
+                tools:ignore="Autofill,VisualLintTextFieldSize,TextContrastCheck" />
 
             <TextView
                 android:id="@+id/textView2"

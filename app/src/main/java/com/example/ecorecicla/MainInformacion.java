@@ -14,7 +14,7 @@ public class MainInformacion extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_informacion);
+        setContentView(R.layout.main_informacion);
 
         File file1 = new File(getFilesDir(), "registroDeUsuarios.txt");
         try {

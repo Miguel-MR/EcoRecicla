@@ -107,4 +107,6 @@
     <string name="acepto_pol_tica_para_tratamiento_de_datos">Acepto política para tratamiento de datos</string>
     <string name="siguiente">Siguiente</string>
     <string name="huella">Registra tu huella ambienta</string>
+    <string name="material">Material</string>
+    <string name="promedio">Promedio</string>
 </resources>

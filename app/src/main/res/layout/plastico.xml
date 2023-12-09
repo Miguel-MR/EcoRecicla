@@ -82,9 +82,10 @@
                     android:id="@+id/textViewCantidad"
                     android:layout_width="80dp"
                     android:layout_height="wrap_content"
-                    android:textAlignment="textEnd"
                     android:fontFamily="@font/product_sans_bold"
-                    android:text="@string/cantidadGr" />
+                    android:text="@string/cantidadGr"
+                    android:textAlignment="textEnd"
+                    tools:ignore="TextSizeCheck" />
 
                 <EditText
                     android:id="@+id/editTextNumber"
@@ -95,9 +96,10 @@
                     android:ems="10"
                     android:gravity="center"
                     android:hint="@string/ingrese_el_total2"
-                    android:inputType="number"
+                    android:importantForAutofill="no"
 
-                    android:importantForAutofill="no" />
+                    android:inputType="number"
+                    tools:ignore="TextContrastCheck" />
 
             </LinearLayout>
 
@@ -129,7 +131,7 @@
                     android:hint="@string/ingrese_el_mes"
                     android:inputType="textCapSentences"
                     android:minHeight="48dp"
-                    tools:ignore="VisualLintTextFieldSize" />
+                    tools:ignore="Autofill,VisualLintTextFieldSize,TextContrastCheck" />
 
             </LinearLayout>
 

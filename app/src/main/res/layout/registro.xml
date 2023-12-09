@@ -159,7 +159,7 @@
                 android:hint="@string/_6_d_gitos_n_mericos"
                 android:inputType="numberPassword"
                 android:textColorHint="#5D4037"
-                tools:ignore="VisualLintTextFieldSize" />
+                tools:ignore="VisualLintTextFieldSize,DuplicateSpeakableTextCheck" />
 
             <Space
                 android:layout_width="match_parent"
@@ -188,7 +188,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="30dp"
                 android:layout_marginEnd="30dp"
-                android:text="@string/acepto_t_rminos_y_condiciones" />
+                android:text="@string/acepto_t_rminos_y_condiciones"
+                tools:ignore="VisualLintButtonSize" />
 
             <Space
                 android:layout_width="match_parent"
@@ -200,7 +201,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="30dp"
                 android:layout_marginEnd="30dp"
-                android:text="@string/acepto_pol_tica_para_tratamiento_de_datos" />
+                android:text="@string/acepto_pol_tica_para_tratamiento_de_datos"
+                tools:ignore="VisualLintButtonSize" />
 
             <Space
                 android:layout_width="match_parent"
