@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#27A56C38"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:src="@drawable/pngwing_com"
+                android:contentDescription="@string/todo5" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="30sp"
+                android:fontFamily="@font/product_sans_bold"
+                android:text="@string/estad_sticas" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="@string/reporte_a_nivel_nacional"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="TextSizeCheck" />
+
+            <TableLayout
+                android:id="@+id/myTableLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:stretchColumns="*">
+
+                <TableRow>
+                    <TextView
+                        android:text="Mes"
+                        android:padding="10dp"
+                        android:background="#EEEEEE"
+                        android:textStyle="bold"
+                        android:textAlignment="center"/>
+
+                    <TextView
+                        android:background="#EEEEEE"
+                        android:padding="10dp"
+                        android:text="Material"
+                        android:textAlignment="center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:text="Cantidad"
+                        android:padding="10dp"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:background="#EEEEEE" />
+                    <TextView
+                        android:text="Promedio"
+                        android:padding="10dp"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:background="#EEEEEE" />
+                </TableRow>
+
+
+            </TableLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+            <Button
+                android:id="@+id/buttonRegreso"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:backgroundTint="#D38C6745"
+                app:icon="?attr/actionModeCloseDrawable"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

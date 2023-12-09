@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#27A56C38"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:src="@drawable/pngwing_com"
+                android:contentDescription="@string/todo8" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="30sp"
+                android:fontFamily="@font/product_sans_bold"
+                android:text="@string/m_s_informaci_n" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="@string/puntos_obtenidos_por_plasticos" />
+
+            <EditText
+                android:id="@+id/editTextText2"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:minHeight="48dp"
+                android:text="500 puntos"
+                tools:ignore="HardcodedText,LabelFor,TextSizeCheck"
+                android:autofillHints="" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/residuos_plasticos_ok_removebg_preview"
+                android:contentDescription="@string/todo11" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="@string/puntos_obtenidos_por_papel" />
+
+            <EditText
+                android:id="@+id/editTextText3"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:minHeight="48dp"
+                android:text="@string/_400_puntos"
+                tools:ignore="LabelFor,TextSizeCheck"
+                android:autofillHints="" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:src="@drawable/_57254812_papel_cart_n_residuos_usados_de_dibujos_animados_con_un_cartel_de_reciclaje_removebg_preview"
+                android:contentDescription="@string/todo12" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textAlignment="center"
+                android:text="@string/puntos_obtenidos_por_desechos_t_xicos" />
+
+            <EditText
+                android:id="@+id/editTextText4"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:text="@string/_300_puntos"
+                tools:ignore="LabelFor"
+                android:autofillHints="" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/images_removebg_preview__1_"
+                android:contentDescription="@string/todo13" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textAlignment="center"
+                android:text="@string/puntos_obtenidos_por_l_quidos" />
+
+            <EditText
+                android:id="@+id/editTextText5"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:text="@string/_100_puntos"
+                tools:ignore="LabelFor"
+                android:autofillHints="" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:src="@drawable/png_transparent_barrel_of_toxic_waste_removebg_preview"
+                android:contentDescription="@string/todo111" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+            <Button
+                android:id="@+id/buttonRegreso"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#D38C6745"
+                app:icon="?attr/actionModeCloseDrawable"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

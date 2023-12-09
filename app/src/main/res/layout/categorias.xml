@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#27A56C38"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:src="@drawable/pngwing_com"
+                android:contentDescription="@string/todo44" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:id="@+id/textViewC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="30sp"
+                android:fontFamily="@font/product_sans_bold"
+                android:text="@string/inicio" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:gravity="center"
+                android:text="@string/seleccione_la_actividad_que_desea_realizar" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView5">
+
+                <androidx.gridlayout.widget.GridLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    app:columnCount="2"
+                    app:rowCount="2">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/card1"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_margin="15dp"
+                        app:cardBackgroundColor="#D38C6745"
+                        app:cardCornerRadius="12dp">
+
+                        <Button
+                            android:id="@+id/buttonCategorias"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@android:color/transparent"
+                            android:contentDescription="@string/ecorecicla"
+                            tools:ignore="DuplicateSpeakableTextCheck,VisualLintOverlap" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            tools:ignore="UseCompoundDrawables">
+
+                            <ImageView
+                                android:id="@+id/imageCategorias"
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:contentDescription="@string/todo22"
+                                android:src="@drawable/reciclaje_removebg_preview"
+                                tools:ignore="ImageContrastCheck" />
+
+                            <TextView
+                                android:id="@+id/textCategorias"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/categorias"
+                                android:textColor="#263238"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/card2"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_margin="15dp"
+                        app:cardBackgroundColor="#D38C6745"
+                        app:cardCornerRadius="12dp">
+
+                        <Button
+                            android:id="@+id/buttonEstadisticas"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:contentDescription="@string/ecorecicla"
+                            android:background="@android:color/transparent"
+                            tools:ignore="VisualLintOverlap" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            tools:ignore="UseCompoundDrawables">
+
+                            <ImageView
+                                android:id="@+id/imageEstadistica"
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:src="@drawable/estad_stica_removebg_preview"
+                                android:contentDescription="@string/to" />
+
+                            <TextView
+                                android:id="@+id/textEstadistica"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/estad_sticas2"
+                                android:textColor="#263238"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/card3"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_margin="15dp"
+                        app:cardBackgroundColor="#D38C6745"
+                        app:cardCornerRadius="12dp">
+
+                        <Button
+                            android:id="@+id/buttonConsejos"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:contentDescription="@string/ecorecicla"
+                            android:background="@android:color/transparent"
+                            tools:ignore="VisualLintOverlap" />
+
+                         <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                             tools:ignore="UseCompoundDrawables">
+
+                             <ImageView
+                                 android:id="@+id/imageConsejos"
+                                 android:layout_width="60dp"
+                                 android:layout_height="60dp"
+                                 android:contentDescription="@string/tod"
+                                 android:src="@drawable/consejos"
+                                 tools:ignore="ImageContrastCheck" />
+
+                             <TextView
+                                 android:id="@+id/textConsejos"
+                                 android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"
+                                 android:text="@string/consejos"
+                                 android:textColor="#263238"
+                                 android:textStyle="bold" />
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/card4"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_margin="15dp"
+                        app:cardBackgroundColor="#D38C6745"
+                        app:cardCornerRadius="12dp"
+                        tools:ignore="TextSizeCheck">
+
+                        <Button
+                            android:id="@+id/buttonMasinformacion"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@android:color/transparent"
+                            android:contentDescription="@string/ecorecicla"
+                            tools:ignore="VisualLintOverlap" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            tools:ignore="UseCompoundDrawables">
+
+                            <ImageView
+                                android:id="@+id/imageMasinformacion"
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:src="@drawable/informacion_financiera_746x419"
+                                tools:ignore="ImageContrastCheck"
+                                android:contentDescription="@string/todo34" />
+
+                            <TextView
+                                android:id="@+id/textMasinformacion"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:text="@string/m_s_informaci_n1"
+                                android:textColor="#263238"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </androidx.gridlayout.widget.GridLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+
+                <Button
+                    android:id="@+id/buttonRegreso"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#D38C6745"
+                    android:text="@string/regresar"
+                    app:icon="?attr/actionModeCloseDrawable"/>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp" />
+
+            </LinearLayout>
+</LinearLayout>
+
+
+
+    </ScrollView>
+</LinearLayout>
