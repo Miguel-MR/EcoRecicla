@@ -66,7 +66,8 @@ public class activity extends AppCompatActivity {
                     String inputPassword = passwordEdit.getText().toString();
                     for (Usuario usuario : usuarios) {
                         if (usuario.getContraseña().equals(inputPassword)) {
-                            if (usuario.getContraseña().equals(inputUsuario) || usuario.getCorreo().equals(inputUsuario) || usuario.getNombre().equals(inputUsuario)) {
+                            if (usuario.getContraseña().equals(inputUsuario) || usuario.getCorreo().equals(inputUsuario)
+                                    || usuario.getNombre().equals(inputUsuario)) {
                                 startActivity(principalIntent);
                                 return;
                             }

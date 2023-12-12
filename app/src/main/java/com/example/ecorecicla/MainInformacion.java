@@ -64,28 +64,6 @@ public class MainInformacion extends AppCompatActivity {
             e.printStackTrace();
         }
 
-        File file4 = new File(getFilesDir(), "consejos.txt");
-        try {
-            FileWriter writer = new FileWriter(file4);
-
-            String[] bancodeConsejos = {
-                    "Identifica los materiales reciclables:\n" +
-                            "Es importante reconocer los materiales que son reciclables. \n" +
-                            "Algunos de los materiales comunes que pueden reciclarse incluyen papel, cartón, vidrio, plástico y metal. \n" +
-                            "Investiga los símbolos de reciclaje en los envases y envoltorios para identificar qué materiales pueden ser reciclados y cómo.",
-                    "Utiliza bombillas LED de bajo consumo energético.",
-            };
-
-            writer.append("Lista de consejos:\n");
-            for (String consejo : bancodeConsejos) {
-                writer.append(consejo).append("\n");
-            }
-            writer.flush();
-            writer.close();
-        }catch (IOException e){
-            e.printStackTrace();
-        }
-
         Intent intent = new Intent(this, activity.class);
         startActivity(intent);
     }
